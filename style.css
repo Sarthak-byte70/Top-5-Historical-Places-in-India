@@ -1,0 +1,128 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.navbar {
+  /* background-color: black; */
+  color: white;
+  position: sticky;
+  top: 0;
+  cursor: pointer;
+}
+
+ .navbar:hover {
+    border: 2px solid white;
+}
+.right-nav input {
+    border-radius: 0.5rem;
+}
+.right-nav button {
+    border-radius: 0.5rem; 
+}
+.left-nav {
+  display: flex;
+}
+.left-nav a {
+  text-decoration: none;
+  color: white;
+}
+.left-nav a:hover {
+  text-decoration: none;
+  color: grey;
+}
+.left-nav li {
+  list-style: none;
+  padding-left: 10rem;
+}
+.btn {
+  color: white;
+  border-color: white;
+}
+
+.background {
+  background: rgba(0, 0, 0, 0.7) url("india.webp");
+  background-size: cover;
+  background-blend-mode: darken;
+}
+
+.box-main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 50%;
+  margin: auto;
+  height: 80%;
+}
+
+.hero-section {
+  height: 100vh;
+}
+
+.first {
+  display: flex;
+  width: 80%;
+  flex-direction: column;
+  justify-content: center;
+  color: white;
+  margin-right: 2rem;
+}
+
+.second img {
+  border: 2px solid black;
+  border-radius: 5%;
+  display: block;
+  margin: auto;
+  background-size: cover;
+}
+
+.text-big2 {
+  font-size: 3rem;
+}
+
+.text-big {
+  font-size: 2rem;
+}
+.text-sm {
+  font-size: 1rem;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.secright {
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  max-width: 80%;
+  margin: auto;
+}
+
+.secleft {
+  height: 500px;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: space-evenly;
+  max-width: 80%;
+  margin: auto;
+}
+
+.paras {
+  padding: 0 60px;
+}
+
+.thumbnail img {
+    border: 2px solid black;
+    border-radius: 0.5rem; 
+}
+
+.text-footer {
+    text-align: center;
+    padding-top: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+} 
+

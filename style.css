@@ -4,7 +4,6 @@
 }
 
 .navbar {
-  /* background-color: black; */
   color: white;
   position: sticky;
   top: 0;
@@ -14,6 +13,9 @@
  .navbar:hover {
     border: 2px solid white;
 }
+.right-nav{
+  width: 30%;
+}
 .right-nav input {
     border-radius: 0.5rem;
 }
@@ -22,6 +24,8 @@
 }
 .left-nav {
   display: flex;
+  justify-content: space-evenly;
+  width: 70%;
 }
 .left-nav a {
   text-decoration: none;
@@ -44,6 +48,7 @@
   background: rgba(0, 0, 0, 0.7) url("india.webp");
   background-size: cover;
   background-blend-mode: darken;
+  position: sticky;
 }
 
 .box-main {
@@ -124,5 +129,21 @@
     justify-content: center;
     align-items: center;
     font-size: 1rem;
+    color: black;
 } 
 
+.name {
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 1.5rem;
+  color: black;
+}
+
+@media only screen and (max-width: 1265px) {
+    /* .left-nav {
+    justify-content: space-evenly;
+  }
+  .navbar {
+    flex-direction: column;
+  } */
+}
